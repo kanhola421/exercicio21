@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            background-color: rgb(97, 92, 92);
+            font-family: sans-serif;
+            margin:0;
+        
+        }
+        header{
+            background-color: darksalmon;
+            padding:10px;
+            margin:10px;
+        }
+        main{
+            background-color: rgb(18, 110, 141);
+            padding: 10px;
+            margin:10px ;
+        }
+
+        footer{
+            background-color: black;
+            color:white;
+            font-size: 20px;
+            text-align: center;
+            padding: 1px;
+            margin:0;
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            margin:20px;
+            color:rgb(255, 0, 0);
+            font-weight:bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            font-size:20px;
+            color:rgb(0, 81, 255)
+        }
+
+        article{
+            background-color: lightskyblue;
+            margin:8px
+        }
+
+        article > p{
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        article > aside{
+            text-align: right;
+            background-color: rgb(66, 170, 235);
+            font-size: 14px;
+            color:rgb(255, 255, 255);
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+                 
+                            <!-- 
+                                header; main; nav; footer; section; article; aside;
+                            -->
+
+<header>
+    <h1 id="titulo">O meu site</h1>
+    <nav>
+        <a href="#">Github</a>
+        <a href="#">Youtube</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <article id="noticias">
+            <h2>Notícias sobre bjj</h2>
+            <p>
+                Lorem, ipsum dolor sit amet con
+                sectetur adipisicing elit. Quas ipsa mollitia est, 
+                quis nobis odio itaque distinctio
+                in tempore earum quaerat delectus non harum mai
+                ores debitis eligendi repellat fugiat id?
+            </p>
+            <aside>
+                <p>
+                    Escrito por Jimbras Eufrásio
+                </p>
+            </aside>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>Desenvolvido por Cláudio Resende</p>
+</footer>
+
+</body>
+</html>
